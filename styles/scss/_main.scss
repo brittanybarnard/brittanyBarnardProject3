@@ -1,0 +1,41 @@
+main {
+    background-color: #B8D8D8;
+    color: #000;
+    
+        legend {
+            font-family: 'Lobster', cursive;
+            font-size: 40px;
+            color: #4F6367;
+        }
+
+        input {
+            border: 3px solid #FE5F55;
+            background-color: #FE5F55;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 20px;
+            font-family: 'Rubik', sans-serif;
+        }
+
+        input:hover {
+            border: 3px solid #fff;
+            cursor: pointer;
+        }
+
+        .container input:checked{
+            background-color: #2196F3;
+        }
+
+        fieldset {
+            display: flex;
+            flex-direction: column;
+        }
+
+        p {
+            font-size: 30px;
+            font-family: 'Lobster', cursive;
+
+        }
+
+        
+}

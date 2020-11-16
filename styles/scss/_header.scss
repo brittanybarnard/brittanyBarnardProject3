@@ -1,0 +1,41 @@
+header {
+  background-color: #7A9E9F;
+  height: 60vh;
+  margin: 0;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+    h1 {
+        font-family: 'Lobster', cursive;
+        font-size: 70px;
+    }
+
+    p {
+        font-size: 25px;
+    }
+
+    button {
+        border: 3px solid #FE5F55;
+        background-color: #FE5F55;
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 20px;
+        font-family: 'Rubik', sans-serif;
+
+    }
+
+    button:hover {
+        border: 3px solid #fff;
+        cursor: pointer;
+    }
+
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    
+}
