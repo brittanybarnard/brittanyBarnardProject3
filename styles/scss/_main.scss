@@ -15,6 +15,7 @@ main {
             padding: 10px 20px;
             font-size: 20px;
             font-family: 'Rubik', sans-serif;
+            // flex-direction: column;
         }
 
         input:hover {
@@ -26,7 +27,7 @@ main {
             background-color: #2196F3;
         }
 
-        fieldset {
+        .flexContainer {
             display: flex;
             flex-direction: column;
         }

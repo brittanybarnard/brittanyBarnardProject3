@@ -75,7 +75,7 @@ main .container input:checked {
   background-color: #2196F3;
 }
 
-main fieldset {
+main .flexContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

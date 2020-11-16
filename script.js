@@ -44,15 +44,14 @@ $(function(){
             } else if (!totalUsersAnswers[gymStereotype]) {
                 totalUsersAnswers[gymStereotype] = 1;
             }
-            console.log(gymStereotype);
+            // console.log(gymStereotype);
+            alert(gymStereotype);
+
         }
     })
     gymPersonalityApp.init();
 })
 
 
-//document ready:
-$(function () {
-})
 
 
